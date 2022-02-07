@@ -4,7 +4,7 @@ In this repository, I want to follow my progress in solving CTF challenges!
 Q&A
 
     Q:What the project does?
-    A:Understanding the challenge properly, Thinking deepley about all possibie ways to solve it , Applying what you have already learned, Doing effective research in 
+    A:Understanding the challenge properly, Thinking deepley about all possibie ways to solve it , Applying what you have already learned, Doing effective research on the internet! 
     
     Q:Why the project is useful?
     A:Because it can boost my knowlegde a lot!
