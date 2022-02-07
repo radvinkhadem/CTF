@@ -24,9 +24,9 @@ All above 3 files are downloaded to the {/home/******-picoctfhome} directory
 Now before run python excution file, first we cat pw.txt file and save the password.
 cat pw.txt
 67c6cc9667c6cc9667c6cc9667c6cc96
-python ./ende.py
-Usage: ./ende.py (-e/-d) [file]
-python ./ende.py -d flag.txt.en
+python ende.py
+Usage: ende.py (-e/-d) [file]
+python ende.py -d flag.txt.en
 Enter the line 26 password
 picoCTF{4p0110_1n_7h3_h0us3_67c6cc96}
 -------------------------------------
