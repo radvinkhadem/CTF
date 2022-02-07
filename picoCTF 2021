@@ -16,3 +16,17 @@ Hello user! Pass me a -h to learn what I can do!
 ./warm -h
 Oh, help? I actually don't do much, but I do have this flag here: picoCTF{b1scu1ts_4nd_gr4vy_30e77291}
 ------------------------------------------------------------------------------------------------------
+Python Wrangling
+wget https://mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/ende.py
+wget https://mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/pw.txt
+wget https://mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/flag.txt.en
+All above 3 files are downloaded to the {/home/******-picoctfhome} directory
+Now before run python excution file, first we cat pw.txt file and save the password.
+cat pw.txt
+67c6cc9667c6cc9667c6cc9667c6cc96
+python ./ende.py
+Usage: ./ende.py (-e/-d) [file]
+python ./ende.py -d flag.txt.en
+Enter the line 26 password
+picoCTF{4p0110_1n_7h3_h0us3_67c6cc96}
+-------------------------------------
