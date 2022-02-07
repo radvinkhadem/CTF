@@ -4,3 +4,14 @@ type: wget https://mercury.picoctf.net/static/33996e32dce022205a6a36f69aba56f0/f
 Using cat command: cat flag
 Answer is:
 picoCTF{s4n1ty_v3r1f13d_2aa22101}
+---------------------------------
+Wave a flag
+wget https://mercury.picoctf.net/static/cfea736820f329083dab9558c3932ada/warm
+For running an executable file we should use $ ./{filename} command so here we should use $ ./warm command.
+Before running an excutive file first we have to make it excutable with $ chmod +x {filename}
+So after line 9 we do:
+chmod +x warm
+./warm
+Hello user! Pass me a -h to learn what I can do!
+Oh, help? I actually don't do much, but I do have this flag here: picoCTF{b1scu1ts_4nd_gr4vy_30e77291}
+------------------------------------------------------------------------------------------------------
