@@ -1,0 +1,6 @@
+Obedient Cat
+Open Webshell
+type: wget https://mercury.picoctf.net/static/33996e32dce022205a6a36f69aba56f0/flag
+Using cat command: cat flag
+Answer is:
+picoCTF{s4n1ty_v3r1f13d_2aa22101}
