@@ -35,3 +35,13 @@ For solving ROT13 cryptography, we should replace a letter with the 13th letter 
 A free online ROT13 decoder service can do that.
 picoCTF{next_time_I'll_try_2_rounds_of_rot13_Aphnytiq}
 ------------------------------------------------------
+information
+Downloading the cat.jpg file into home directory
+For inspecting image metadata we use "exiftool" tool ...
+exiftool cat.jpg
+The License string appears to be base64 encoded so ...
+echo cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9 | base64 -d
+picoCTF{the_m3tadata_1s_modified}
+---------------------------------
+
+------------------------------------------------------
