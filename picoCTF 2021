@@ -30,3 +30,8 @@ python ende.py -d flag.txt.en
 Enter the line 26 password
 picoCTF{4p0110_1n_7h3_h0us3_67c6cc96}
 -------------------------------------
+Mod 26
+For solving ROT13 cryptography, we should replace a letter with the 13th letter after it in the alphabet.
+A free online ROT13 decoder service can do that.
+picoCTF{next_time_I'll_try_2_rounds_of_rot13_Aphnytiq}
+------------------------------------------------------
