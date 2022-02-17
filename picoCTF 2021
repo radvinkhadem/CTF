@@ -43,5 +43,10 @@ The License string appears to be base64 encoded so ...
 echo cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9 | base64 -d
 picoCTF{the_m3tadata_1s_modified}
 ---------------------------------
-
-------------------------------------------------------
+Nice netcat...
+Using nc (netcad) command
+simple stracture for nc command is: nc {hostname.com} {port}   for example: nc 127.0.0.1 1234 
+nc mercury.picoctf.net 35652
+Using ASCII table to convert extracted numbers to charachter
+picoCTF{g00d_k1tty!_n1c3_k1tty!_9b3b7392}
+-----------------------------------------
